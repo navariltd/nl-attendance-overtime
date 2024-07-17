@@ -1,5 +1,5 @@
 app_name = "nl_attendance_timesheet"
-app_title = "Navari Attendance and Timesheet Integration"
+app_title = "Attendance and Timesheet Integration"
 app_publisher = "Navari Ltd"
 app_description = "FrappeHR app to automate creation of employee timesheets from attendance records"
 app_email = "support@navari.co.ke"

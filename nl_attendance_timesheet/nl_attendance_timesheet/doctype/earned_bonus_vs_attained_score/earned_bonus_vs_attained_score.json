@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-22 14:23:52.414903",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "lower_limit",
+  "upper_limit",
+  "attained_score"
+ ],
+ "fields": [
+  {
+   "fieldname": "lower_limit",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Lower Limit"
+  },
+  {
+   "fieldname": "upper_limit",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Upper Limit"
+  },
+  {
+   "fieldname": "attained_score",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "label": "Attained Score"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-27 17:02:24.856789",
+ "modified_by": "Administrator",
+ "module": "Nl Attendance Timesheet",
+ "name": "Earned Bonus vs Attained Score",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

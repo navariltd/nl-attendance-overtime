@@ -1,4 +1,9 @@
-nl_attendance_timesheet.nl_attendance_timesheet.patches.overtime_threshold #24th May 2024 21:42
-nl_attendance_timesheet.nl_attendance_timesheet.patches.payment_hours_custom_field #24th May 2024 21:42
-nl_attendance_timesheet.nl_attendance_timesheet.patches.salary_slip_custom_fields #24th May 2024 21:42
-nl_attendance_timesheet.nl_attendance_timesheet.patches.timesheet_custom_fields #24th May 2024 21:42
+[pre_model_sync]
+
+
+[post_model_sync]
+nl_attendance_timesheet.nl_attendance_timesheet.patches.overtime_threshold 
+nl_attendance_timesheet.nl_attendance_timesheet.patches.payment_hours_custom_field 
+nl_attendance_timesheet.nl_attendance_timesheet.patches.salary_slip_custom_fields 
+nl_attendance_timesheet.nl_attendance_timesheet.patches.timesheet_custom_fields 
+nl_attendance_timesheet.nl_attendance_timesheet.patches.shift_type_custom_fields 

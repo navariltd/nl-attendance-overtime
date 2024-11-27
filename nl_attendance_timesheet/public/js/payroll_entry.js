@@ -1,5 +1,5 @@
 frappe.ui.form.on("Payroll Entry", {
-    refresh: function(frm) {
+    onload: function(frm) {
         if (frm.doc.salary_slips_created && frm.doc.status !== "Queued") {
             fetch_attendance_data(frm);
         }

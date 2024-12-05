@@ -32,7 +32,7 @@ def execute():
             {
                 "fieldname": "attendance",
                 "fieldtype": "Table",
-                "options": "VF Attendance",
+                "options": "Navari Attendance",
                 "label": "Attendance",
                 "translatable": 1,
                 "insert_after": "attendance_section"

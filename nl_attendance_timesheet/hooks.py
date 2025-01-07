@@ -1,5 +1,5 @@
 app_name = "nl_attendance_timesheet"
-app_title = "Navari Attendance and Timesheet Integration"
+app_title = "Attendance and Timesheet"
 app_publisher = "Navari Ltd"
 app_description = "FrappeHR app to automate creation of employee timesheets from attendance records"
 app_email = "support@navari.co.ke"
@@ -28,7 +28,8 @@ required_apps = ["frappe/erpnext"]
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+ "Payroll Entry" : "public/js/payroll_entry.js",}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
